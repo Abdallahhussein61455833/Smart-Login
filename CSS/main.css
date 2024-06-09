@@ -1,0 +1,21 @@
+body {
+  background-color: #24353f;
+}
+.container {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+  color: #09c;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+::placeholder {
+  color: grey !important;
+}

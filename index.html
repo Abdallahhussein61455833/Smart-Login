@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LOGIN\REGISTER APP</title>
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body class="d-flex align-items-center vh-100">
+    <div class="container p-5 text-black text-center w-50">
+      <h1 class="p-2">Smart Login System</h1>
+      <input
+        id="signinEmail"
+        class="form-control my-3 bg-transparent text-white"
+        placeholder="Enter your email"
+        type="text"
+      />
+      <input
+        id="signinPassword"
+        class="form-control my-3 bg-transparent text-white"
+        placeholder="Enter your password"
+        type="password"
+      />
+      <span class="text-danger fw-bold d-none spanErr"
+        >All inputs is required !
+      </span>
+      <span class="text-danger fw-bold d-none Incorrect"
+        >Incorrect email or password !</span
+      >
+      <button
+        id="button"
+        onclick="logIn()"
+        class="btn btn-outline-info w-100 my-3"
+      >
+        Login
+      </button>
+      <p class="text-white">
+        Don’t have an account?
+        <a class="text-white" href="./signup.html">Sign Up</a>
+      </p>
+    </div>
+    <script src="JS/login.js"></script>
+  </body>
+</html>
